@@ -26,6 +26,7 @@ class _DetailProduct2WidgetState extends State<DetailProduct2Widget> {
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
+  //Metode initState() di override untuk menginisialisasi _model dengan menggunakan fungsi createModel saat widget pertama kali dibangun.
   @override
   void initState() {
     super.initState();
