@@ -17,6 +17,7 @@ class DetailProductWidget extends StatefulWidget {
 
   final DocumentReference? detref;
 
+  //for createproduct widget
   @override
   State<DetailProductWidget> createState() => _DetailProductWidgetState();
 }
