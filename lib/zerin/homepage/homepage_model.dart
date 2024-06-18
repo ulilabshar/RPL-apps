@@ -22,6 +22,7 @@ class HomepageModel extends FlutterFlowModel<HomepageWidget> {
   int get tabBarCurrentIndex =>
       tabBarController != null ? tabBarController!.index : 0;
 
+  //oconnect to buildcontext
   @override
   void initState(BuildContext context) {}
 
