@@ -13,11 +13,11 @@ class HomepageModel extends FlutterFlowModel<HomepageWidget> {
   ///  State fields for stateful widgets in this page.
 
   final unfocusNode = FocusNode();
-  // State field(s) for searchBar widget.
+  // State field(s) for searchBar widgets.
   FocusNode? searchBarFocusNode;
   TextEditingController? searchBarTextController;
   String? Function(BuildContext, String?)? searchBarTextControllerValidator;
-  // State field(s) for TabBar widget.
+  // State field(s) for TabBar widgets.
   TabController? tabBarController;
   int get tabBarCurrentIndex =>
       tabBarController != null ? tabBarController!.index : 0;
