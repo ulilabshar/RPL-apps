@@ -13,6 +13,7 @@ class DetailProduct1Model extends FlutterFlowModel<DetailProduct1Widget> {
   @override
   void initState(BuildContext context) {}
 
+//make overrode dispose
   @override
   void dispose() {}
 }
