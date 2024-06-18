@@ -23,4 +23,8 @@ class Checkout6Model extends FlutterFlowModel<Checkout6Widget> {
   void dispose() {
     unfocusNode.dispose();
   }
+
+  /// Additional helper methods are added here.
+
+  void onCreditCardFormSubmitted() {} //|<---         
 }
