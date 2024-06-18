@@ -33,6 +33,7 @@ class _DetailProduct2WidgetState extends State<DetailProduct2Widget> {
     _model = createModel(context, () => DetailProduct2Model());
   }
 
+  //Metode dispose() di override untuk membersihkan _model dengan memanggil _model.dispose() sebelum memanggil super.dispose() guna melepaskan sumber daya ketika widget dihapus dari tree.
   @override
   void dispose() {
     _model.dispose();
