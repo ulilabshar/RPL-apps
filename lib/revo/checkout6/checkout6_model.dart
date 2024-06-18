@@ -29,4 +29,5 @@ class Checkout6Model extends FlutterFlowModel<Checkout6Widget> {
   void onCreditCardFormSubmitted() {} //|<---      
 
   void onButtonPressed(BuildContext context) {}   
+  ///additional helper methods
 }
