@@ -23,4 +23,7 @@ class SupportClientModel extends FlutterFlowModel<SupportClientWidget> {
   void dispose() {
     unfocusNode.dispose();
   }
+
+  /// Additional helper methods are added here.
+  
 }
