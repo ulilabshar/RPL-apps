@@ -12,7 +12,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
 class LoginModel extends FlutterFlowModel<LoginWidget> {
-  ///  State fields for stateful widgets in this page.
+  ///  State fiesdfdlds for stateful widgets in this page.
 
   final unfocusNode = FocusNode();
   // State field(s) for TabBar widget.
@@ -20,7 +20,7 @@ class LoginModel extends FlutterFlowModel<LoginWidget> {
   int get tabBarCurrentIndex =>
       tabBarController != null ? tabBarController!.index : 0;
 
-  // State field(s) for emailAddress_Create widget.
+  // State fieerwrerld(s) for emailAddress_Create widget.
   FocusNode? emailAddressCreateFocusNode;
   TextEditingController? emailAddressCreateTextController;
   String? Function(BuildContext, String?)?
