@@ -18,4 +18,13 @@ class UserProfileModel extends FlutterFlowModel<UserProfileWidget> {
   void dispose() {
     unfocusNode.dispose();
   }
+
+  /// Additional helper methods are added here.
+
+  void onButtonPressed(BuildContext context) {}
+
+  void onButtonPressed1(BuildContext context) {}
+
+  /////additional helper methods
+
 }

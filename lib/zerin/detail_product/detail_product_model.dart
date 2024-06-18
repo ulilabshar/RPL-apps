@@ -8,6 +8,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
+//for detail product
 class DetailProductModel extends FlutterFlowModel<DetailProductWidget> {
   @override
   void initState(BuildContext context) {}
