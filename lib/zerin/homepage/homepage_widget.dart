@@ -164,6 +164,8 @@ class _HomepageWidgetState extends State<HomepageWidget>
                 ),
               ],
             ),
+
+            //enggunakan Expanded untuk memastikan bahwa Column akan mengisi ruang yang tersedia dalam arah vertikal dalam widget induknya.
             Expanded(
               child: Column(
                 children: [
