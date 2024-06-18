@@ -15,6 +15,7 @@ class DetailProduct1Widget extends StatefulWidget {
     this.detref1,
   });
 
+  //for final document reference
   final DocumentReference? detref1;
 
   @override
@@ -24,6 +25,7 @@ class DetailProduct1Widget extends StatefulWidget {
 class _DetailProduct1WidgetState extends State<DetailProduct1Widget> {
   late DetailProduct1Model _model;
 
+  //scaffoldKey for struktur dasar dari desain visual Material Design
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override

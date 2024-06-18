@@ -8,10 +8,12 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
+//make override detail product widget
 class DetailProduct1Model extends FlutterFlowModel<DetailProduct1Widget> {
   @override
   void initState(BuildContext context) {}
 
+//make overrode dispose
   @override
   void dispose() {}
 }
