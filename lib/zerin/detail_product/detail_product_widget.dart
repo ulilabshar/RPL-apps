@@ -17,6 +17,7 @@ class DetailProductWidget extends StatefulWidget {
 
   final DocumentReference? detref;
 
+  //for create product widget
   @override
   State<DetailProductWidget> createState() => _DetailProductWidgetState();
 }
@@ -26,6 +27,7 @@ class _DetailProductWidgetState extends State<DetailProductWidget> {
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
+  //create model detail product
   @override
   void initState() {
     super.initState();
