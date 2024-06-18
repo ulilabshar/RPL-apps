@@ -15,6 +15,7 @@ class DetailProduct1Widget extends StatefulWidget {
     this.detref1,
   });
 
+  //for final document reference
   final DocumentReference? detref1;
 
   @override
