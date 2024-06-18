@@ -25,6 +25,7 @@ class HomepageModel extends FlutterFlowModel<HomepageWidget> {
   @override
   void initState(BuildContext context) {}
 
+  //untuk memastikan bahwa unfocusNode, searchBarFocusNode, searchBarTextController, dan tabBarController dibersihkan dengan benar dengan memanggil metode dispose() pada masing-masing objek sebelum widget dihapus dari tree untuk mencegah kebocoran memori.
   @override
   void dispose() {
     unfocusNode.dispose();
