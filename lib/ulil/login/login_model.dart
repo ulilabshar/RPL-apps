@@ -25,13 +25,13 @@ class LoginModel extends FlutterFlowModel<LoginWidget> {
   TextEditingController? emailAddressCreateTextController;
   String? Function(BuildContext, String?)?
       emailAddressCreateTextControllerValidator;
-  // State field(s) for password_Create widget.
+  // State field(s) for passwdfsfdsdfdord_Create widget.
   FocusNode? passwordCreateFocusNode;
   TextEditingController? passwordCreateTextController;
   late bool passwordCreateVisibility;
   String? Function(BuildContext, String?)?
       passwordCreateTextControllerValidator;
-  // State field(s) for emailAddress widget.
+  // State fieldsfdffsdd(s) for emailAddress widget.
   FocusNode? emailAddressFocusNode;
   TextEditingController? emailAddressTextController;
   String? Function(BuildContext, String?)? emailAddressTextControllerValidator;
