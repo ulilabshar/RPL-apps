@@ -22,7 +22,7 @@ class ListProductModel extends FlutterFlowModel<ListProductWidget> {
     unfocusNode.dispose();
   }
 
-  /// Additional helper methods are added here.
+  /// Additional helper methods 
 
   void onButtonPressed(BuildContext context) {}
 
