@@ -28,4 +28,5 @@ class ListProductModel extends FlutterFlowModel<ListProductWidget> {
 
   void onButtonPressed1(BuildContext context) {}
   ///additional helper methods
+  
 }
