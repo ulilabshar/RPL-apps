@@ -63,6 +63,8 @@ class _DetailProduct2WidgetState extends State<DetailProduct2Widget> {
             ),
           );
         }
+
+        //finalling widget product
         final detailProduct2CartProduct2Record = snapshot.data!;
         return Scaffold(
           key: scaffoldKey,
