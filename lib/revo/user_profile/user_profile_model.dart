@@ -25,4 +25,6 @@ class UserProfileModel extends FlutterFlowModel<UserProfileWidget> {
 
   void onButtonPressed1(BuildContext context) {}
 
+  /////additional helper methods
+
 }
