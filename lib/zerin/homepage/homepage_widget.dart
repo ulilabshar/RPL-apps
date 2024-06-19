@@ -51,9 +51,11 @@ class _HomepageWidgetState extends State<HomepageWidget>
       onTap: () => _model.unfocusNode.canRequestFocus
           ? FocusScope.of(context).requestFocus(_model.unfocusNode)
           : FocusScope.of(context).unfocus(),
+      //child of widget is scaffold
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).secondaryBackground,
+        //add appbar di atas
         appBar: AppBar(
           backgroundColor: Colors.white,
           automaticallyImplyLeading: false,
@@ -162,6 +164,8 @@ class _HomepageWidgetState extends State<HomepageWidget>
                 ),
               ],
             ),
+
+            //enggunakan Expanded untuk memastikan bahwa Column akan mengisi ruang yang tersedia dalam arah vertikal dalam widget induknya.
             Expanded(
               child: Column(
                 children: [

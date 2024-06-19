@@ -26,12 +26,14 @@ class _DetailProduct2WidgetState extends State<DetailProduct2Widget> {
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
+  //Metode initState() di override untuk menginisialisasi _model dengan menggunakan fungsi createModel saat widget pertama kali dibangun.
   @override
   void initState() {
     super.initState();
     _model = createModel(context, () => DetailProduct2Model());
   }
 
+  //Metode dispose() di override untuk membersihkan _model dengan memanggil _model.dispose() sebelum memanggil super.dispose() guna melepaskan sumber daya ketika widget dihapus dari tree.
   @override
   void dispose() {
     _model.dispose();
@@ -61,6 +63,8 @@ class _DetailProduct2WidgetState extends State<DetailProduct2Widget> {
             ),
           );
         }
+
+        //finalling widget product
         final detailProduct2CartProduct2Record = snapshot.data!;
         return Scaffold(
           key: scaffoldKey,
